@@ -4,6 +4,10 @@
 Easy Jenkins Jobs
 =================
 
+What does EJJ Do!?
+------------------
+It creates a simple API to batch-create jobs in Jenkins based off of pre-defined templates on the server.  All you have to provide is the prefix for the new job(s). Optionally, you can specify the Jenkins URL as well if this isn't run on the Jenkins server itself.
+
 Assumptions
 -----------
 - There are jobs on the Jenkins server that start with 'ejj_template' (this is configurable via the config.coffee file)
