@@ -39,7 +39,7 @@ Assuming you already have [Node.js](http://nodejs.org/) and [NPM](https://www.np
 
   > cd easy-jenkins-jobs
 
-  > npm install -g grunt
+  > npm install -g grunt-cli
 
   > npm install
 
