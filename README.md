@@ -19,9 +19,11 @@ How Do I Trigger This?
 - Send a POST to http://ejj_server:1234
   - [ejj_server] is the server that EJJ is running on
 - include the following in a JSON payload
-  - 'jobPrefix': the prefix you will be using to replace 'ejj_template' with
+  - 'templatePrefix': the prefix you will be using to search for templates on the Jenkins server.
+    - this will default to config.jobPrefix if nothing is specified.  See section "What Can I Configure?"
+  - 'jobPrefix': the prefix you will be using to replace 'templatePrefix' with
   - 'jenkinsUrl': the URL of the Jenkins server.  (http://jenkins:8080/)
-    - this will default to 'http://localhost:8080/' if nothing is specified
+    - this will default to config.defaultJenkinsUrl if nothing is specified.  See section "What Can I Configure?"
 
 What Can I Configure?
 ---------------------
