@@ -1,5 +1,6 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-
+[![Dependencies managed by David](https://david-dm.org/ingshtrom/easy-jenkins-jobs.png)]
+[![DevDependencies managed by David](https://david-dm.org/ingshtrom/easy-jenkins-jobs/dev-status.svg)]
 
 Easy Jenkins Jobs
 =================
@@ -32,6 +33,11 @@ What Can I Configure?
 - defaultJenkinsUrl: ('http://localhost:8080/') the url that will be used if none is specified in the JSON payload
 - logLevel: ('info') the default logging level.  See [winston](https://github.com/flatiron/winston) for more information.
 - defaultLogFile: ('logs/app.log') the default place to place log files.  By default log files will only get as large as 1MB until a new file is started.
+- useLoggly (false) true => send logs to [Loggly](https://www.loggly.com/)
+- logglyToken ('') the token for your Loggly account
+- logglySubdomain ('') the subdomain for your Loggly account
+- useLogentries (false) true => send logs to [Logentries](https://logentries.com/)
+- logentriesToken ('') the token for your Logentries account
 
 Getting Started
 ---------------
