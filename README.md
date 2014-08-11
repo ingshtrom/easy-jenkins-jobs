@@ -47,28 +47,21 @@ Assuming you already have [Node.js](http://nodejs.org/) and [NPM](https://www.np
 
   > cd easy-jenkins-jobs
 
-  > npm install -g grunt-cli
-
-  > npm install
-
-  > grunt
-
-  > node build/index.js
+  > node pub/src/index.js
 
 And voila! The server is started and you can start sending requests to the EJJ server.
 
-What Libraries and Tools Was This Built With?
--------------------------------------------
-- [Atom.io](https://atom.io/) - Awesome text editor build on-top of Chromium with Node.js
-- [MIT License](http://opensource.org/licenses/MIT) - opens source licensing
-- [Node.js](http://nodejs.org/) - Javascript on the server.
-- [NPM](https://www.npmjs.org/) - library management
-- [Postman](http://www.getpostman.com/) - client for testing HTTP APIs
-- [winston](https://github.com/flatiron/winston) - logging
-- [request](https://github.com/mikeal/request) - send HTTP requests from Node.js
-- [express](https://github.com/visionmedia/express) - an easy way to setup RESTful web services
-- [body-parser](https://github.com/expressjs/body-parser) - a module for ExpressJS to parse 'req.body' into a JSON object
-- [grunt](http://gruntjs.com/) - automated build system
-- [grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean) - module for Grunt that allows for cleaning up generated directories
-- [grunt-coffeelint](https://github.com/vojtajina/grunt-coffeelint) - module for Grunt that lints CoffeeScript code and stops the build if it fails
-- [grunt-contrib-coffee](https://github.com/gruntjs/grunt-contrib-coffee) - module for Grunt that 'compiles' CoffeeScript into Javascript
+Running Tests
+-------------
+This will build the code AND test it.
+
+  > npm install -g grunt-cli mocha
+  
+  > npm install
+
+  > grunt test
+
+Some Extra Stuff
+----------------
+- The pub/ directory is created from running 'grunt build'
+- the node_modules/ directory was committed for your convenience. You can clone this repo and then run the app right away!
