@@ -2,6 +2,7 @@
 ![Dependencies managed by David](https://david-dm.org/ingshtrom/easy-jenkins-jobs.png)
 ![DevDependencies managed by David](https://david-dm.org/ingshtrom/easy-jenkins-jobs/dev-status.svg)
 
+
 Easy Jenkins Jobs
 =================
 
