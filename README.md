@@ -1,6 +1,7 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 ![Dependencies managed by David](https://david-dm.org/ingshtrom/easy-jenkins-jobs.png)
 ![DevDependencies managed by David](https://david-dm.org/ingshtrom/easy-jenkins-jobs/dev-status.svg)
+![Travis-CI build status](https://travis-ci.org/ingshtrom/easy-jenkins-jobs.svg)
 
 
 Easy Jenkins Jobs
@@ -57,7 +58,7 @@ Running Tests
 This will build the code AND test it.
 
   > npm install -g grunt-cli mocha
-  
+
   > npm install
 
   > grunt test
