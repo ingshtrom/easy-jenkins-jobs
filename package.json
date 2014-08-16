@@ -35,7 +35,8 @@
     "body-parser": "1.4.3",
     "winston": "0.7.3",
     "winston-loggly": "1.0.1",
-    "winston-logentries": "1.0.0"
+    "winston-logentries": "1.0.0",
+    "jenkins": "0.6.1"
   },
   "devDependencies": {
     "grunt": "0.4.5",
