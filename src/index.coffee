@@ -1,6 +1,6 @@
 express = require 'express'
 bodyParser = require 'body-parser'
-expressHelper = require './express_helpers'
+expressHelper = require './express-helpers'
 logger = require './logger' # one time setup of the DEFAULT logger
 jenkinsInterface = require './jenkins-interface'
 config = require './config'

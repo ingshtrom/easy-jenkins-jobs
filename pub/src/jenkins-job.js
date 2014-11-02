@@ -7,14 +7,6 @@
       this.url = url;
     }
 
-    JenkinsJob.prototype.getName = function() {
-      return this.name;
-    };
-
-    JenkinsJob.prototype.getUrl = function() {
-      return this.url;
-    };
-
     return JenkinsJob;
 
   })();

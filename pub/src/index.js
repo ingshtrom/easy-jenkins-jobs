@@ -5,7 +5,7 @@
 
   bodyParser = require('body-parser');
 
-  expressHelper = require('./express_helpers');
+  expressHelper = require('./express-helpers');
 
   logger = require('./logger');
 

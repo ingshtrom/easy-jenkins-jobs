@@ -24,7 +24,7 @@
       "url": "http://github.com/ingshtrom/easy-jenkins-jobs/blob/master/LICENSE.txt"
     }
   ],
-  "main": "src/index.js",
+  "main": "pub/src/index.js",
   "engines": {
     "node": ">= 0.10.x"
   },
@@ -50,6 +50,7 @@
     "sinon": "1.10.3"
   },
   "scripts": {
+    "start": "node pub/src/index.js",
     "prepublish": "npm prune",
     "test": "mocha --reporter spec --bail --check-leaks pub/test/",
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha --reporter dot --check-leaks pub/test/",
