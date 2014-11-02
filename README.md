@@ -49,7 +49,7 @@ Assuming you already have [Node.js](http://nodejs.org/) and [NPM](https://www.np
 
   > cd easy-jenkins-jobs
 
-  > node pub/src/index.js
+  > npm start
 
 And voila! The server is started and you can start sending requests to the EJJ server.
 
