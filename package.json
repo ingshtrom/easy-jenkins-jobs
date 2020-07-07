@@ -29,7 +29,7 @@
     "node": ">= 0.10.x"
   },
   "dependencies": {
-    "request": "2.37.0",
+    "request": "2.88.2",
     "express": "4.6.1",
     "lodash": "2.4.1",
     "body-parser": "1.4.3",
